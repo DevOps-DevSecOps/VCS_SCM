@@ -1,1 +1,2 @@
-
+git rm FILE_NAME
+git rm -r FOLDER_NAME
