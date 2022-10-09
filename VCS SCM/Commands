@@ -22,7 +22,7 @@ git rm -r FOLDER_NAME
 [Remote]
 git remote
 git remote -v
-git remote set-url origin REMOTE_REPOSITORY_URL(HTTPS/SSH)                                  # switching URL's HTTPS/SSH
+git remote set-url origin REMOTE_REPOSITORY_URL(HTTPS/SSH)                                        # switching URL's HTTPS/SSH
 git remote add origin https://TOKEN@github.com/USER_NAME/REPOSITORY_NAME.git                
 git remote add origin https://TOKEN@github.com/ORGANIZATION_NAME/REPOSITORY_NAME.git
 git remote remove origin
