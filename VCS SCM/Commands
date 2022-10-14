@@ -3,6 +3,9 @@ git add -A
 git add -f .                                            # -f, --force
 git add FILE_NAME
 
+[Branch]
+git branch -D BRANCH_NAME
+
 [Checkout]
 git checkout BRANCH_NAME
 git checkout -b BRANCH_NAME
