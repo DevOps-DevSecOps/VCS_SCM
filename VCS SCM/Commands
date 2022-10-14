@@ -1,5 +1,11 @@
 [Add]
+git add -A
 git add -f .                                            # -f, --force
+git add FILE_NAME
+
+[Checkout]
+git checkout BRANCH_NAME
+git checkout -b BRANCH_NAME
 
 [Clone]
 git clone REMOTE_REPOSITORY_URL(HTTPS/SSH)
@@ -10,10 +16,18 @@ git fetch
 
 [Pull]
 git pull
+git pull --rebase
+git pull origin BRANCH_NAME
 
 [Push]
 git push
 git push origin BRANCH_NAME
+git push -u origin BRANCH_NAME
+git push -f origin BRANCH_NAME
+
+[Rebase]
+git rebase
+git rebase --abort
 
 [Remove/Delete]
 git rm FILE_NAME
@@ -26,3 +40,7 @@ git remote set-url origin REMOTE_REPOSITORY_URL(HTTPS/SSH)                      
 git remote add origin https://TOKEN@github.com/USER_NAME/REPOSITORY_NAME.git                
 git remote add origin https://TOKEN@github.com/ORGANIZATION_NAME/REPOSITORY_NAME.git
 git remote remove origin
+
+[Stash]
+git stash
+git stash pop
