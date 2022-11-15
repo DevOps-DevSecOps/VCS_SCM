@@ -21,14 +21,15 @@ Git is very fast, so it can complete all the tasks in a while.
 Most of the git operations are done on the local repository, so it provides a huge speed.
 * Supports non-linear development
 ➤
-❖ Architecture
-
 
 [Source Code Management (SCM)]
 GitHub, Bitbucket and GitLab is a Git repository hosting service.
 It provides a Web-based graphical interface.
 It hosts source code of project in the form of different programming languages and keeps track of the various changes made by programmers.
 It supports both VCS and SCM.
+
+{Architecture}
+
 
 [Git .vs. SVN]
 ⦿ Git 
