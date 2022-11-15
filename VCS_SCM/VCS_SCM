@@ -21,6 +21,8 @@ Git is very fast, so it can complete all the tasks in a while.
 Most of the git operations are done on the local repository, so it provides a huge speed.
 * Supports non-linear development
 ➤
+❖ Architecture
+
 
 [Source Code Management (SCM)]
 GitHub, Bitbucket and GitLab is a Git repository hosting service.
