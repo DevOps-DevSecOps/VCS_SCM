@@ -4,3 +4,38 @@ The Version Control System (VCS) allows us to monitor/track and work together wi
 Git is foundation of many services like GitHub, Bitbucket and GitLab.
 Git can be used privately and publicly.
 ➤ Features
+* Open Source 
+It is released under the GPL (General Public License) license.
+* Scalable
+It means when the number of users increases, the Git can easily handle such situations.
+* Distributed
+It means that instead of switching the project to another machine, we can create a "clone" of the entire repository.
+Also, instead of just having one central repository that send changes to, every user has their own repository that contains the entire commit history of the project.
+We do not need to connect to the remote repository; the change is just stored on local repository. If necessary, we can push these changes to a remote repository.
+* Security
+It uses the SHA1 (Secure Hash Function) to name and identify objects within its repository.
+Files and commits are checked and retrieved by its checksum at the time of checkout.
+It stores its history in such a way that the ID of particular commits depends upon the complete development history leading up to that commit.
+* Speed
+Git is very fast, so it can complete all the tasks in a while.
+Most of the git operations are done on the local repository, so it provides a huge speed.
+* Supports non-linear development
+➤
+
+[Source Code Management (SCM)]
+GitHub, Bitbucket and GitLab is a Git repository hosting service.
+It provides a Web-based graphical interface.
+It hosts source code of project in the form of different programming languages and keeps track of the various changes made by programmers.
+It supports both VCS and SCM.
+
+[Git .vs. SVN]
+⦿ Git 
+It is a distributed Version Control System.
+It has a cloned repository.
+Git branches are familiar to work.
+Git does not have a Global revision number.
+⦿ SVN
+It is a Centralized Version Control System.
+It does not have a cloned repository.
+SVN branches are a folder which exists in the repository.
+SVN has a Global revision number.
