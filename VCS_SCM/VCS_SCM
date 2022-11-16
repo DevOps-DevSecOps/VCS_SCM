@@ -20,7 +20,17 @@ It stores its history in such a way that the ID of particular commits depends up
 Git is very fast, so it can complete all the tasks in a while.
 Most of the git operations are done on the local repository, so it provides a huge speed.
 * Supports non-linear development
-➤
+➤ Types
+* Localized
+The programmers developed local VCSs that had a simple database.
+Such databases kept all the changes to files under revision control.
+A local version control system keeps local copies of the files.
+* Centralized
+It is a central server to store all the database and team collaboration.
+* Distributed
+The user has a local copy of a repository.
+The local repository contains all the files and metadata present in the main repository.
+It enhances the ability to work offline.
 
 [Source Code Management (SCM)]
 GitHub, Bitbucket and GitLab is a Git repository hosting service.
