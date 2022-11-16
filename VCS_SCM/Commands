@@ -1,7 +1,11 @@
 [Add]
-git add -A
+git add .
+git add *.EXTENSION
 git add -f .                                            # -f, --force
+git add -A
+git add -u                                              # allows us to stage only the modified and deleted files, not allows stage the newly created file
 git add FILE_NAME
+git add --ignore-removal .                              # allows us only updated and newly created files at once
 
 [Branch]
 git branch -D BRANCH_NAME
@@ -23,12 +27,21 @@ git clone REMOTE_REPOSITORY_URL(HTTPS/SSH)
 git clone --branch=BRANCH_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH)
 git clone --branch=BRANCH_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH) FOLDER_NAME                     # cloning specific branch into particular custom folder
 
+[Commit]
+git commit                                                                      # it will open the default text editor and ask for the commit message
+git commit -a                                                                   # it work for only update/modified to existing file and it commit and so it won't work for newly created files and it won't commit, it will prompt default text editor and ask for the commit message and then save and exit from the editor
+git commit -m "COMMIT_MESSAGE"                                                  # lets to write the commit message on the command line
+git commit -am "COMMIT_MESSAGE"                                                 # it work for only update/modified to existing file and it commit and so it won't work for newly created files and it won't commit, lets to write the commit message on the command line
+
 [Fetch]
 git fetch
 
 [Init]
 git init                                                                        # create an empty .git repository in current path
 git init FOLDER_NAME                                                            # create an empty .git repository under a directory
+
+[Log]
+git log
 
 [Pull]
 git pull
@@ -56,6 +69,9 @@ git remote set-url origin REMOTE_REPOSITORY_URL(HTTPS/SSH)                      
 git remote add origin https://TOKEN@github.com/USER_NAME/REPOSITORY_NAME.git                
 git remote add origin https://TOKEN@github.com/ORGANIZATION_NAME/REPOSITORY_NAME.git
 git remote remove origin
+
+[Reset]
+git reset FILE_NAME
 
 [Stash]
 git stash
