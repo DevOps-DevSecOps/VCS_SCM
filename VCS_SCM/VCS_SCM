@@ -58,7 +58,15 @@ SVN has a Global revision number.
 It contains the source code of HEAD that always reflects a final version of the project.
 Stable Production Code without any changes.
 This branch contains Production Code. All Development code means Development Branch is merged into Master Branch.
-► Develop
+► Develop / Development
+Staging OR Pre-Prod Code.
 ► Hotfixes
+This Hotfix branch created from Master branch.
+To patch the production releases OR It created for bugs in production releases.
+That all the bugs for a production release should be resolved in a single Hotfix branch.
+That after all the production bugs are resolved, the updated code is merged back to the Development branch and Master branch OR It gets merged into both Branches like Master and Development. 
+After merge make sure the Hotfix branch is deleted.
 ► Release
 ► Feature
+It is used to develop a new feature for the next version of the project.
+It is deleted after its feature has been merged with develop branch.
