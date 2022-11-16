@@ -52,3 +52,13 @@ It is a Centralized Version Control System.
 It does not have a cloned repository.
 SVN branches are a folder which exists in the repository.
 SVN has a Global revision number.
+
+[WorkFlow / Branching Model / Branching Strategy]
+► Master
+It contains the source code of HEAD that always reflects a final version of the project.
+Stable Production Code without any changes.
+This branch contains Production Code. All Development code means Development Branch is merged into Master Branch.
+► Develop
+► Hotfixes
+► Release
+► Feature
