@@ -7,3 +7,12 @@ It newly created subdirectory contains all of the necessary metadata.
 
 [Add]
 It is used to add file contents to the Index (Staging Area) from Working Directory.
+The git add command can be run many times before making a commit.
+These all add operations can be put under one commit.
+
+[Commit]
+It is used to record the changes in the repository.
+
+[Clone]
+It is the act of making a copy of any target repository.
+It can clone your repository from the remote repository to create a local copy on your system.
