@@ -26,6 +26,10 @@ git clone --branch=BRANCH_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH) FOLDER_NAME     
 [Fetch]
 git fetch
 
+[Init]
+git init                                                                        # create an empty .git repository in current path
+git init FOLDER_NAME                                                            # create an empty .git repository under a directory
+
 [Pull]
 git pull
 git pull --rebase
@@ -56,3 +60,6 @@ git remote remove origin
 [Stash]
 git stash
 git stash pop
+
+[Status]
+git status
