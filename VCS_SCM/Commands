@@ -38,6 +38,8 @@ git commit -am "COMMIT_MESSAGE"                                                 
 
 [Fetch]
 git fetch
+git fetch origin
+git fetch REMOTE_NAME
 
 [Init]
 git init                                                                        # create an empty .git repository in current path
@@ -50,6 +52,7 @@ git log
 git pull
 git pull --rebase
 git pull origin BRANCH_NAME
+git pull REMOTE_NAME
 
 [Push]
 git push
@@ -68,9 +71,11 @@ git rm -r FOLDER_NAME
 [Remote]
 git remote
 git remote -v
+git remote --verbose
 git remote set-url origin REMOTE_REPOSITORY_URL(HTTPS/SSH)                                        # switching URL's HTTPS/SSH
 git remote add origin https://TOKEN@github.com/USER_NAME/REPOSITORY_NAME.git                
 git remote add origin https://TOKEN@github.com/ORGANIZATION_NAME/REPOSITORY_NAME.git
+git remote add REMOTE_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH)                                       # adding a short name for remote
 git remote remove origin
 
 [Reset]
