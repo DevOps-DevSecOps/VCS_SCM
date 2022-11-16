@@ -1,0 +1,9 @@
+[Init]
+It is used to create a new blank repository.
+It is used to make an existing project as a Git project.
+Several Git commands run inside the repository, but init command can be run outside of the repository.
+It creates a .git subdirectory in the current Working Directory.
+It newly created subdirectory contains all of the necessary metadata.
+
+[Add]
+It is used to add file contents to the Index (Staging Area) from Working Directory.
