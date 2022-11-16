@@ -24,8 +24,11 @@ git checkout -b BRANCH_NAME
 
 [Clone]
 git clone REMOTE_REPOSITORY_URL(HTTPS/SSH)
+git clone REMOTE_REPOSITORY_URL(HTTPS/SSH) "FOLDER_NAME"                                        # cloning a repository into a specific local folder without switching to that particular folder/directory
+git clone -b BRANCH_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH)                                       # cloning specific branch from repository
+git clone -b BRANCH_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH) "FOLDER_NAME"                         # cloning specific branch from repository into particular custom folder
 git clone --branch=BRANCH_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH)
-git clone --branch=BRANCH_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH) FOLDER_NAME                     # cloning specific branch into particular custom folder
+git clone --branch=BRANCH_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH) FOLDER_NAME                     # cloning specific branch from repository into particular custom folder
 
 [Commit]
 git commit                                                                      # it will open the default text editor and ask for the commit message
