@@ -8,6 +8,7 @@ git add FILE_NAME
 git add --ignore-removal .                              # allows us only updated and newly created files at once
 
 [Branch]
+git branch
 git branch -a
 git branch -vv
 git branch -D BRANCH_NAME
@@ -21,8 +22,8 @@ git config --global user.email "EMAIL_ID"
 git config --global core.editor EDITOR_NAME
 
 [Checkout]
-git checkout BRANCH_NAME
-git checkout -b BRANCH_NAME
+git checkout BRANCH_NAME                                                                        # switch between branches
+git checkout -b BRANCH_NAME                                                                     # create and switch to a new branch
 
 [Clone]
 git clone REMOTE_REPOSITORY_URL(HTTPS/SSH)
@@ -40,6 +41,7 @@ git commit -am "COMMIT_MESSAGE"                                                 
 
 [Fetch]
 git fetch
+git fetch --all
 git fetch origin
 git fetch REMOTE_NAME
 
