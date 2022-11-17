@@ -8,6 +8,8 @@ git add FILE_NAME
 git add --ignore-removal .                              # allows us only updated and newly created files at once
 
 [Branch]
+git branch -a
+git branch -vv
 git branch -D BRANCH_NAME
 
 [Config]
@@ -60,6 +62,7 @@ git push
 git push origin BRANCH_NAME
 git push -u origin BRANCH_NAME
 git push -f origin BRANCH_NAME
+git push --set-upstream origin BRANCH_NAME
 
 [Rebase]
 git rebase
