@@ -87,6 +87,7 @@ git remote rm origin
 git remote remove origin
 
 [Reset]
+git reset HEAD
 git reset FILE_NAME
 
 [Stash]
