@@ -53,6 +53,7 @@ git pull
 git pull --rebase
 git pull origin BRANCH_NAME
 git pull REMOTE_NAME
+git pull REMOTE_NAME BRANCH_NAME
 
 [Push]
 git push
@@ -73,9 +74,13 @@ git remote
 git remote -v
 git remote --verbose
 git remote set-url origin REMOTE_REPOSITORY_URL(HTTPS/SSH)                                        # switching URL's HTTPS/SSH
+git remote set-url REMOTE_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH)
 git remote add origin https://TOKEN@github.com/USER_NAME/REPOSITORY_NAME.git                
 git remote add origin https://TOKEN@github.com/ORGANIZATION_NAME/REPOSITORY_NAME.git
 git remote add REMOTE_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH)                                       # adding a short name for remote
+git remote show REMOTE_NAME
+git remote rename OLD_REMOTE_NAME NEW_REMOTE_NAME
+git remote rm origin
 git remote remove origin
 
 [Reset]
