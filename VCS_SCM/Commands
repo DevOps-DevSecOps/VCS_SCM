@@ -39,6 +39,13 @@ git commit -a                                                                   
 git commit -m "COMMIT_MESSAGE"                                                  # lets to write the commit message on the command line
 git commit -am "COMMIT_MESSAGE"                                                 # it work for only update/modified to existing file and it commit and so it won't work for newly created files and it won't commit, lets to write the commit message on the command line
 
+[Diff]
+git diff
+git diff HEAD
+git diff --staged                                                               # to track the changes in the staging area
+git diff COMMIT_ID COMMIT_ID                                                    # to compare different between the commits
+git diff BRANCH_NAME BRANCH_NAME                                                # to compare different between the branches
+
 [Fetch]
 git fetch
 git fetch --all
