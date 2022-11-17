@@ -58,6 +58,7 @@ git init FOLDER_NAME                                                            
 
 [Log]
 git log
+git log -NO                                                                     # NO = then pass the argument by using count NO 
 git log --oneline                                                               # it display the first seven characters of the commit SHA and the commit message
 git log --graph                                                                 # it allows viewing git log as a graph
 git log --graph --oneline
