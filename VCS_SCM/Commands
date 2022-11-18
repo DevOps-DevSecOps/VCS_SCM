@@ -8,9 +8,13 @@ git add FILE_NAME
 git add --ignore-removal .                              # allows us only updated and newly created files at once
 
 [Branch]
-git branch
+git branch                                              # list all of the available branches in repository
+git branch --list
 git branch -a
 git branch -vv
+git branch BRANCH_NAME                                  # create a new branch
+git branch -m OLD_BRANCH_NAME NEW_BRANCH_NAME           # rename the branch
+git branch -d BRANCH_NAME                               # delete a branch in local repository
 git branch -D BRANCH_NAME
 
 [Config]
@@ -58,7 +62,7 @@ git init FOLDER_NAME                                                            
 
 [Log]
 git log
-git log -NO                                                                     # NO = then pass the argument by using count NO 
+git log -NO                                                                     # NO = then pass the argument by using count NO (eg: git log -10) 
 git log --oneline                                                               # it display the first seven characters of the commit SHA and the commit message
 git log --graph                                                                 # it allows viewing git log as a graph
 git log --graph --oneline
@@ -68,6 +72,10 @@ git log --patch
 git log --author="NAME"
 git log --author="@gmail.com"
 git log --grep="COMMIT_MESSAGE"
+git log --pretty=oneline | tail -n NO
+
+[Merge]
+git merge BRANCH_NAME                                                           # current branch merged with target branch
 
 [Pull]
 git pull
@@ -81,6 +89,7 @@ git push
 git push origin BRANCH_NAME
 git push -u origin BRANCH_NAME
 git push -f origin BRANCH_NAME
+git push origin --delete BRANCH_NAME                                            # delete a branch in remote repository
 git push --set-upstream origin BRANCH_NAME
 
 [Rebase]
