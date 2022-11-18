@@ -3,6 +3,9 @@ It is used to add file contents to the Index (Staging Area) from Working Directo
 The git add command can be run many times before making a commit.
 These all add operations can be put under one commit.
 
+[Branch]
+If add a new feature or fix a bug, spawn a new branch to summarize changes.
+
 [Commit]
 It is used to record the changes in the repository.
 
@@ -28,6 +31,9 @@ Author = The information of authors such as author name and email.
 Date = It a date timestamp for the time of the commit.
 COMMIT_MESSAGE = It is the overview of the commit given in the commit message.
 If run the git log command and stuck there, then press the q (Q for quit). It will quit you from the situation and back you to the command line.
+
+[Merge]
+It allows to merge the other branch with the currently active branch.
 
 [Remote]
 It allows accessing the connection between remote and local.
