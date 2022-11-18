@@ -86,6 +86,9 @@ git pull REMOTE_NAME BRANCH_NAME
 
 [Push]
 git push
+git push -f
+git push -v
+git push --verbose
 git push origin BRANCH_NAME
 git push -u origin BRANCH_NAME
 git push -f origin BRANCH_NAME
