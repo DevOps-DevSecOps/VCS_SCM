@@ -35,6 +35,9 @@ If run the git log command and stuck there, then press the q (Q for quit). It wi
 [Merge]
 It allows to merge the other branch with the currently active branch.
 
+[Push]
+It upload local repository content to a remote repository.
+
 [Remote]
 It allows accessing the connection between remote and local.
 Origin is the default name for the remote server, which is given by Git.
