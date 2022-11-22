@@ -41,7 +41,7 @@ It supports both VCS and SCM.
 {Architecture}
 There are 3 phases.
             Working Directory -----> Staging Area (index) -----> Local Repository <==============> Remote Repository
-
+            |.............................PC/Laptop.............................|
 
 [Git .vs. SVN]
 ⦿ Git 
