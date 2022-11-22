@@ -1,3 +1,6 @@
+[Version]
+git --version
+
 [Add]
 git add .
 git add *
@@ -27,7 +30,7 @@ git config --global user.email "EMAIL_ID"
 git config --global core.editor EDITOR_NAME
 
 [Checkout]
-git checkout BRANCH_NAME                                                                        # switch between branches
+git checkout BRANCH_NAME                                                                        # switch between the existing branches
 git checkout -b BRANCH_NAME                                                                     # create and switch to a new branch
 
 [Clone]
@@ -128,3 +131,8 @@ git stash pop
 
 [Status]
 git status
+
+[Switch]
+git switch -                                                                                       # it go back to the previous branch, when switched to branches
+git switch BRANCH_NAME                                                                             # switch between the existing branches
+git switch -c BRANCH_NAME                                                                          # create and switch to a new branch
