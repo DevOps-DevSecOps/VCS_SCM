@@ -56,6 +56,10 @@ Origin is the default name for the remote server, which is given by Git.
 [Status]
 It allows us to see the tracked, untracked files and changes.
 
+[Switch]
+It is used to switch between branches in a repository.
+The git switch command operates only switch between the existing branches, it doesn't support operates like files, commits.
+
 [Tags]
 ► Light-weighted
 ► Annotated
