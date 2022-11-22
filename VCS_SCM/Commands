@@ -30,8 +30,10 @@ git config --global user.email "EMAIL_ID"
 git config --global core.editor EDITOR_NAME
 
 [Checkout]
+git checkout -                                                                                  # it go back to the previous branch, when switched to branches
 git checkout BRANCH_NAME                                                                        # switch between the existing branches
 git checkout -b BRANCH_NAME                                                                     # create and switch to a new branch
+git checkout -b NEW_BRANCH_NAME SOURCE_BRANCH_NAME                                              # create and switch to a new branch from particular existing branch
 
 [Clone]
 git clone REMOTE_REPOSITORY_URL(HTTPS/SSH)
