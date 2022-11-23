@@ -49,6 +49,9 @@ It upload local repository content to a remote repository.
 ► Mixed
 ► Hard
 
+[Restore]
+
+
 [Remote]
 It allows accessing the connection between remote and local.
 Origin is the default name for the remote server, which is given by Git.
