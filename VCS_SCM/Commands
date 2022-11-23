@@ -104,7 +104,7 @@ git push origin --delete BRANCH_NAME                                            
 git push --set-upstream origin BRANCH_NAME
 
 [Restore]
-
+git restore FILE_NAME                                                           # to discard/undo/remove changes in working directory
 
 [Rebase]
 git rebase
