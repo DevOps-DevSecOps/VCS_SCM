@@ -104,7 +104,14 @@ git push origin --delete BRANCH_NAME                                            
 git push --set-upstream origin BRANCH_NAME
 
 [Restore]
-git restore FILE_NAME                                                           # to discard/undo/remove changes in working directory
+git restore .                                                                   # to discard/undo/remove all changes in working directory
+git restore *.EXTENSION
+git restore FILE_NAME                                                           # to discard/undo/remove changes a particular file in working directory
+git restore FILE_NAME FILE_NAME
+git restore --staged .                                                          # to discard/undo/remove all changes from staging area to working directory
+git restore --staged *.EXTENSION
+git restore --staged FILE_NAME                                                  # to discard/undo/remove changes a particular file from staging area to working directory
+git restore --staged FILE_NAME FILE_NAME
 
 [Rebase]
 git rebase
