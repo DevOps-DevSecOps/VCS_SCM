@@ -50,7 +50,8 @@ It upload local repository content to a remote repository.
 ► Hard
 
 [Restore]
-
+It helps to discard uncommitted from Working Directory and also to discard unstage from Staging Area.
+It can be used to undo the effects of git add and unstage changes have previously added to the Staging Area.
 
 [Remote]
 It allows accessing the connection between remote and local.
