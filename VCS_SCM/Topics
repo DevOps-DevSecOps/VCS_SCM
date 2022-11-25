@@ -46,6 +46,11 @@ It upload local repository content to a remote repository.
 
 [Revert]
 It is an undo type command.
+It does not delete any data in this process, instead it will create a new change with the specified new commit id.
+It is a forward-moving undo operation that offers a safe method of undoing changes.
+Instead of deleting commits in the commit history, a revert will create a new commit that inverses the changes specified.
+A revert is safer than a reset because it will not remove any commits from a shared history.
+A revert will retain the commits you want to undo and create a new commit that inverts the undesired commit.
 
 [Reset]
 ► Soft
