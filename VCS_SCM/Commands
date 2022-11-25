@@ -104,11 +104,19 @@ git push -f origin BRANCH_NAME
 git push origin --delete BRANCH_NAME                                            # delete a branch in remote repository
 git push --set-upstream origin BRANCH_NAME
 
+[Reflog]
+git reflog
+git reflog show HEAD                                                            # it display all HEAD commits
+git reflog show --all                                                           #
+
 [Revert]
 git revert COMMIT_ID
 git revert -e COMMIT_ID                                                         # edit the commit message before reverting the commit
 git revert HEAD
 git revert HEAD~NO                                                              # No is an argument to pass the numbers.
+
+[Reset]
+git reset --hard HEAD@{NO}
 
 [Restore]
 git restore .                                                                   # to discard/undo/remove all changes in working directory
