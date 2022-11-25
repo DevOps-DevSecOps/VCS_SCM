@@ -160,4 +160,10 @@ git switch -c BRANCH_NAME                                                       
 [Tags]
 git tag                                                                                            # list the tags in repository
 git tag -l "TAG_NAME*"                                                                             # list the tags in repository with pattern 
+git push origin TAG_NAME                                                                           # push an particular tag
+git push --tags                                                                                    # push all the available tags at once from the local repository to the remote repository
+git push origin --tags
+► Light-Weighted
 git tag TAG_NAME                                                                                   # create a tag
+► Annotated
+git tag TAG_NAME -m "TAG_MESSAGE"
