@@ -19,6 +19,9 @@ It can clone your repository from the remote repository to create a local copy o
 
 [Fetch]
 
+[Head]
+It is a reference that points out the latest recent commit in the current checkout branch.
+It is just like a pointer that keeps track of the latest commit in current branch.
 
 [Init]
 It is used to create a new blank repository.
