@@ -141,6 +141,10 @@ git remote remove origin
 git reset HEAD
 git reset FILE_NAME
 
+[Show]
+git show
+git show TAG_NAME
+
 [Stash]
 git stash
 git stash pop
@@ -154,3 +158,6 @@ git switch BRANCH_NAME                                                          
 git switch -c BRANCH_NAME                                                                          # create and switch to a new branch
 
 [Tags]
+git tag                                                                                            # list the tags in repository
+git tag -l "TAG_NAME*"                                                                             # list the tags in repository with pattern 
+git tag TAG_NAME                                                                                   # create a tag
