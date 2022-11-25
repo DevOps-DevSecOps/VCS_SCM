@@ -69,5 +69,13 @@ The git switch command operates only switch between the existing branches, it do
 
 [Tags]
 It make a point as a specific point in Git history.
-► Light-weighted
+It used to mark a commit stage as relevant.
+It can have any number of tags on a branch or different branches. So tags are created to the branches.
+when to create a Tags:
+If want to create a release point for a stable version of code.
+► Light-Weighted
+It does not store unnecessary information to keep it light-weight.
 ► Annotated
+It contain some additional information like author name and other project related information.
+It store extra Metadata like developer name, email, date, and more.
+It stored as a bundle of objects in the Git database.
