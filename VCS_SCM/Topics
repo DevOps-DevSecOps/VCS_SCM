@@ -44,6 +44,9 @@ It fetches and merges the entire changes on the remote repository into local rep
 [Push]
 It upload local repository content to a remote repository.
 
+[Revert]
+It is an undo type command.
+
 [Reset]
 ► Soft
 ► Mixed
@@ -65,5 +68,6 @@ It is used to switch between branches in a repository.
 The git switch command operates only switch between the existing branches, it doesn't support operates like files, commits.
 
 [Tags]
+It make a point as a specific point in Git history.
 ► Light-weighted
 ► Annotated
