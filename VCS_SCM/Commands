@@ -105,7 +105,10 @@ git push origin --delete BRANCH_NAME                                            
 git push --set-upstream origin BRANCH_NAME
 
 [Revert]
-
+git revert COMMIT_ID
+git revert -e COMMIT_ID                                                         # edit the commit message before reverting the commit
+git revert HEAD
+git revert HEAD~NO                                                              # No is an argument to pass the numbers.
 
 [Restore]
 git restore .                                                                   # to discard/undo/remove all changes in working directory
