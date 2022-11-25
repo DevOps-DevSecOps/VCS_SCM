@@ -103,6 +103,9 @@ git push -f origin BRANCH_NAME
 git push origin --delete BRANCH_NAME                                            # delete a branch in remote repository
 git push --set-upstream origin BRANCH_NAME
 
+[Revert]
+
+
 [Restore]
 git restore .                                                                   # to discard/undo/remove all changes in working directory
 git restore *.EXTENSION
@@ -149,3 +152,5 @@ git status
 git switch -                                                                                       # it go back to the previous branch, when switched to branches
 git switch BRANCH_NAME                                                                             # switch between the existing branches
 git switch -c BRANCH_NAME                                                                          # create and switch to a new branch
+
+[Tags]
