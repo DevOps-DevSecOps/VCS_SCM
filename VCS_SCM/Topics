@@ -3,6 +3,9 @@ It is used to add file contents to the Index (Staging Area) from Working Directo
 The git add command can be run many times before making a commit.
 These all add operations can be put under one commit.
 
+[Blame]
+
+
 [Branch]
 If add a new feature or fix a bug, spawn a new branch to summarize changes.
 
