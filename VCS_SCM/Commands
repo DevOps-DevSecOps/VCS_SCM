@@ -156,6 +156,7 @@ git reset FILE_NAME
 [Show]
 git show
 git show HEAD
+git show COMMIT_ID
 git show TAG_NAME
 
 [Stash]
