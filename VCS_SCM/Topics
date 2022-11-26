@@ -22,6 +22,9 @@ It can clone your repository from the remote repository to create a local copy o
 [Head]
 It is a reference that points out the latest recent commit in the current checkout branch.
 It is just like a pointer that keeps track of the latest commit in current branch.
+If the Head doesn't point to most latest recent commit such state is called detached Head.
+If the checkout with an older commit it will stand the detached Head condition.
+So do not commit on detached Head.
 
 [Init]
 It is used to create a new blank repository.
