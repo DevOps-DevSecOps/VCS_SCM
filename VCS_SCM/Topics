@@ -112,19 +112,25 @@ The root structure for .git:
 ► hooks
 This folder contains script files.
 The hooks are the scripts that are executed before or after events like commit, push etc.
+This folder has a few script files inside it. These script files are known as Git Hook Scripts.
 ► info
 ► logs
+It contains history for different branches.
 ► objects
+In Git everything is saved in the objects folder as a hash value.
+By everything mean every commit, every tree or every file that create is saved in this directory.
+With every object, there is a hash value linked to it, through which Git knows where is what.
 ► refs
 This folder stores information about tags and branches.
 ► COMMIT_EDITMSG
 ► config
 ► description
 ► HEAD
+It contains the reference to the branch we are currently working on.
 This file stores reference to the current branch.
 It points to the master branch by default.
 ► index
-This is a binary file and stores staging information.
+This is a binary file and stores staging area information.
 
 [.gitignore]
 It specifies untracked files that git should ignore the file.
