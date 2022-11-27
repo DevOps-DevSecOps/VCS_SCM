@@ -23,6 +23,9 @@ The git checkout command operates upon three different entities which are files,
 It is the act of making a copy of any target repository.
 It can clone your repository from the remote repository to create a local copy on your system.
 
+[Cherry-Pick]
+
+
 [Fetch]
 
 [Head]
