@@ -68,6 +68,8 @@ A revert is safer than a reset because it will not remove any commits from a sha
 A revert will retain the commits you want to undo and create a new commit that inverts the undesired commit.
 
 [Reset]
+It is used for undoing changes.
+It use when we want to move the repository back to a previous commit, discarding any changes made after that latest commit.
 ► Soft
 ► Mixed
 ► Hard
