@@ -13,6 +13,11 @@ git add --ignore-removal .                              # allows us only updated
 
 [Blame]
 git blame FILE_NAME
+git blame -e FILE_NAME                                  # it shows the authors email address instead of username
+git blame -w FILE_NAME                                  # ignores whitespace changes, if a previous author has modified the spacing of a file by switching from tabs to spaces or adding new lines
+git blame -M FILE_NAME                                  # detects moved or copied lines within in the same file, it will report the original author of the lines instead of the last author that moved or copied the lines
+git blame -C FILE_NAME                                  # detects lines that were moved or copied from other files, it will report the original author of the lines instead of the last author that moved or copied the lines
+git blame -L NO,NO FILE_NAME                            # restrict the output to the requested line range, restricted the output to lines NO through NO
 
 [Branch]
 git branch                                              # list all of the available branches in repository
