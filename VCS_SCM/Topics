@@ -99,3 +99,21 @@ It does not store unnecessary information to keep it light-weight.
 It contain some additional information like author name and other project related information.
 It store extra Metadata like developer name, email, date, and more.
 It stored as a bundle of objects in the Git database.
+
+[.git]
+The .git is also known as Git database.
+The .git folder contains all information that is necessary for the project and all information relating commits, remote repository address, etc.
+It also contains a log that stores the commit history. This log can help you to roll back to the desired version of the code.
+The root structure for .git:
+►
+►
+►
+►
+►
+►
+►
+►
+►
+
+[.gitignore]
+It specifies untracked files that git should ignore the file.
