@@ -104,16 +104,27 @@ It stored as a bundle of objects in the Git database.
 The .git is also known as Git database.
 The .git folder contains all information that is necessary for the project and all information relating commits, remote repository address, etc.
 It also contains a log that stores the commit history. This log can help you to roll back to the desired version of the code.
+All snapshots of the modifications will be recorded in this folder like a database, which makes it possible to undo the changes and rollback to the desired version of the code.
+The .git folder is hidden to prevent accidental deletion or modification of the folder.
+The version history of the code base will be lost if this folder is deleted.
+It will not be able to rollback changes made to the code in future.
 The root structure for .git:
-►
-►
-►
-►
-►
-►
-►
-►
-►
+► hooks
+This folder contains script files.
+The hooks are the scripts that are executed before or after events like commit, push etc.
+► info
+► logs
+► objects
+► refs
+This folder stores information about tags and branches.
+► COMMIT_EDITMSG
+► config
+► description
+► HEAD
+This file stores reference to the current branch.
+It points to the master branch by default.
+► index
+This is a binary file and stores staging information.
 
 [.gitignore]
 It specifies untracked files that git should ignore the file.
