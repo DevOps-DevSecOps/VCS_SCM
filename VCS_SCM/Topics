@@ -4,7 +4,10 @@ The git add command can be run many times before making a commit.
 These all add operations can be put under one commit.
 
 [Blame]
-
+It shows the author information of each line of the project's last modified source file.
+It is used to show revision and author last modified each line of a file.
+It displays the details of the author who last modified or added each line of code in a given file along with the commit id of modification.
+It is used to find the author name and commit information of the last modified version of the source file.
 
 [Branch]
 If add a new feature or fix a bug, spawn a new branch to summarize changes.
