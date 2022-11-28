@@ -113,8 +113,9 @@ git push --all
 git push origin BRANCH_NAME
 git push -u origin BRANCH_NAME
 git push -f origin BRANCH_NAME
-git push origin --delete BRANCH_NAME                                            # delete a branch in remote repository
+git push -u origin --all
 git push --set-upstream origin BRANCH_NAME
+git push origin --delete BRANCH_NAME                                            # delete a branch in remote repository
 
 [Reflog]
 git reflog
