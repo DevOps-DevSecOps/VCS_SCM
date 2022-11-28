@@ -135,4 +135,6 @@ It points to the master branch by default.
 This is a binary file and stores staging area information.
 
 [.gitignore]
+To create a ".gitignore" file in repository's root directory to tell Git which files and directories to ignore when make a commit.
+Suppose the existing files already tracked by git are not affected.
 It specifies untracked files that git should ignore the file.
