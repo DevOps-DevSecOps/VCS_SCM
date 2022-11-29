@@ -181,6 +181,10 @@ git show TAG_NAME
 [Stash]
 git stash                                                                                          # it create a stash with by default message name
 git stash save "STASH_MESSAGE"                                                                     # it create a stash with an custom message
+git stash list                                                                                     # list all the stashes with indexing as stash@{0}: stash@{1}: and so on
+git stash apply                                                                                    # re-apply the changes that stashed, then by default take first index id '0'
+git stash apply stash@{NO}                                                                         # re-apply the changes that stashed, by apply particular index id
+git stash show                                                                                     # track the stashes and their changes, to check the changes in the file before stash and after stash operation
 git stash pop
 
 [Status]
