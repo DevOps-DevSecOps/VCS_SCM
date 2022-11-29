@@ -191,7 +191,7 @@ git stash pop stash@{NO}                                                        
 git stash drop                                                                                     # it delete a stash from the stash list, by default take first index id '0'
 git stash drop stash@{NO}                                                                          # it delete a stash from the stash list, by apply particular index id
 git stash clear                                                                                    # it allows deleting all the available stashes at once in stash list that exist in the repository
-git stash branch BRANCH_NAME                                                                       # it will create a new branch and transfer the stashed work on that, stashed some work on a particular branch and continue working on that branch, it may create a conflict during merging, it work on a separate branch to avoid conflicts 
+git stash branch BRANCH_NAME                                                                       # it will create a new branch and transfer the stashed work on that, stashed some work on a particular branch and continue working on that branch, it may create a conflict during merging, it work on a separate branch to avoid conflicts, it will avoid the merge conflict for the branches 
 
 [Status]
 git status
