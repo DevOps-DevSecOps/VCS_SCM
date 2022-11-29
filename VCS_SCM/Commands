@@ -179,7 +179,8 @@ git show COMMIT_ID
 git show TAG_NAME
 
 [Stash]
-git stash
+git stash                                                                                          # it create a stash with by default message name
+git stash save "STASH_MESSAGE"                                                                     # it create a stash with an custom message
 git stash pop
 
 [Status]
