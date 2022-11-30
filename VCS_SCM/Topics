@@ -24,6 +24,9 @@ It is the act of making a copy of any target repository.
 It can clone your repository from the remote repository to create a local copy on your system.
 
 [Cherry-Pick]
+It applying some particular commit from one branch into another branch.
+In case made a mistake and committed a change into the wrong branch, but do not want to merge the whole branch.
+It is a useful tool, but always it is not a good option, it can cause duplicate commits. So if necessary it will useful tool for a few situations.
 
 [Fetch]
 It downloads commits, objects and refs from remote repository to local repository.
