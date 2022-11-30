@@ -27,6 +27,8 @@ It can clone your repository from the remote repository to create a local copy o
 
 [Fetch]
 It downloads commits, objects and refs from remote repository to local repository.
+It downloads only new data from a remote repository to local repository (.git).
+So the changes/modification in the files does not integrate into working directory from remote repository.
 
 [Head]
 It is a reference that points out the latest recent commit in the current checkout branch.
