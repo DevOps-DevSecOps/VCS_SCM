@@ -60,7 +60,7 @@ git commit -m "COMMIT_MESSAGE"                                                  
 git commit -am "COMMIT_MESSAGE"                                                 # it work for only update/modified to existing file and it commit and so it won't work for newly created files and it won't commit, lets to write the commit message on the command line
 
 [Cherry-Pick]
-
+git cherry-pick COMMIT_ID
 
 [Diff]
 git diff
