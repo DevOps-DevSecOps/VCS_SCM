@@ -102,9 +102,10 @@ git merge BRANCH_NAME                                                           
 [Pull]
 git pull
 git pull --rebase
-git pull origin BRANCH_NAME
 git pull REMOTE_NAME
+git pull origin BRANCH_NAME
 git pull REMOTE_NAME BRANCH_NAME
+git pull REMOTE_REPOSITORY_URL(HTTPS/SSH)
 
 [Push]
 git push
