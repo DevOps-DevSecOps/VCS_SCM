@@ -55,8 +55,13 @@ If run the git log command and stuck there, then press the q (Q for quit). It wi
 [Merge]
 It allows to merge the other branch with the currently active branch.
 
-[Pull]
-It fetches and merges the entire changes on the remote repository into local repository and then into working directory.
+[Pull / Pull Request]
+git pull = git fetch + git merge
+It fetches and merges the entire changes include files, commits, objects, refs on the remote repository into local repository (.git) and then into working directory.
+It fetches and merges changes from the remote repository to working directory.
+Pull Request is a process for a developer to notify team members that they have completed a feature.
+Pull Request is happened through via their remote repository server account.
+Pull Request announces all the team members that they need to review the code and merge it into the master branch.
 
 [Push]
 It upload local repository content to a remote repository.
