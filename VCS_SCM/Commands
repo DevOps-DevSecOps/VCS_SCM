@@ -74,6 +74,8 @@ git fetch
 git fetch --all
 git fetch origin
 git fetch REMOTE_NAME
+git fetch REMOTE_REPOSITORY_URL(HTTPS/SSH)
+git fetch REMOTE_REPOSITORY_URL(HTTPS/SSH) BRANCH_NAME
 
 [Init]
 git init                                                                        # create an empty .git repository in current path
