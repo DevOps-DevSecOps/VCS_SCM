@@ -82,6 +82,7 @@ A revert will retain the commits you want to undo and create a new commit that i
 
 [Rebase]
 It is used to integrate all commit id and changes from one branch onto another branch.
+Rebase will do rewriting the entire commit id history in order to produce a straight, linear process of commits based on one branch into another current working branch.
 
 [Reset]
 It is used for undoing changes.
