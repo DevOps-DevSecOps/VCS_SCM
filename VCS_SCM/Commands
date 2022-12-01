@@ -74,6 +74,8 @@ git fetch
 git fetch --all
 git fetch origin
 git fetch REMOTE_NAME
+git fetch origin BRANCH_NAME
+git fetch REMOTE_NAME BRANCH_NAME
 git fetch REMOTE_REPOSITORY_URL(HTTPS/SSH)
 git fetch REMOTE_REPOSITORY_URL(HTTPS/SSH) BRANCH_NAME
 
@@ -116,6 +118,7 @@ git push --all
 git push origin BRANCH_NAME
 git push -u origin BRANCH_NAME
 git push -f origin BRANCH_NAME
+git push --force origin BRANCH_NAME
 git push -u origin --all
 git push --set-upstream origin BRANCH_NAME
 git push origin --delete BRANCH_NAME                                            # delete a branch in remote repository
