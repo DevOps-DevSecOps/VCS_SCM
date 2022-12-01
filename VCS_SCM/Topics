@@ -24,8 +24,8 @@ It is the act of making a copy of any target repository.
 It can clone your repository from the remote repository to create a local copy on your system.
 
 [Cherry-Pick]
-It applying some particular commit from one branch into another branch.
-Git cherry-pick will pick only one commit whatever select and merges with commits which are there in current branch.
+It applying one particular commit id from one branch into another branch.
+Git cherry-pick will pick only one commit id whatever select and merges with commits which are there in current branch.
 In case made a mistake and committed a change into the wrong branch, but do not want to merge the whole branch.
 It is a useful tool, but always it is not a good option, it can cause duplicate commits. So if necessary it will useful tool for a few situations.
 Copy the particular commit id from existing current branch and switch to another branch there apply that particular commit id by using cherry-pick command.
@@ -79,6 +79,9 @@ It is a forward-moving undo operation that offers a safe method of undoing chang
 Instead of deleting commits in the commit history, a revert will create a new commit that inverses the changes specified.
 A revert is safer than a reset because it will not remove any commits from a shared history.
 A revert will retain the commits you want to undo and create a new commit that inverts the undesired commit.
+
+[Rebase]
+It is used to integrate all commit id and changes from one branch onto another branch.
 
 [Reset]
 It is used for undoing changes.
