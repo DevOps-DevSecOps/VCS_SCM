@@ -154,7 +154,7 @@ git restore --staged FILE_NAME                                                  
 git restore --staged FILE_NAME FILE_NAME
 
 [Rebase]
-git rebase
+git rebase BRANCH_NAME
 git rebase --abort
 
 [Remove/Delete]
