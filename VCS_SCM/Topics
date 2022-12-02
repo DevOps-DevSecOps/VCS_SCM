@@ -11,6 +11,9 @@ It is used to find the author name and commit information of the last modified v
 
 [Branch]
 If add a new feature or fix a bug, spawn a new branch to summarize changes.
+It allows developers to diverge from the production version of code to fix a bug or add a feature.
+Developers create branches to work with a copy of the code without modifying the existing version.
+It create branches to isolate your code changes, which test before merging to the main branch.
 
 [Commit]
 It is used to record the changes in the repository.
