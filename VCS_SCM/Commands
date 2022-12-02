@@ -156,6 +156,7 @@ git restore --staged FILE_NAME FILE_NAME
 [Rebase]
 git rebase BRANCH_NAME
 git rebase --abort
+git rebase --quit
 
 [Remove/Delete]
 git rm FILE_NAME
