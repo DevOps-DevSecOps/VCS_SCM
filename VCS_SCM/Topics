@@ -63,6 +63,8 @@ If run the git log command and stuck there, then press the q (Q for quit). It wi
 
 [Merge]
 It allows to merge the other branch with the currently active branch.
+Merge is always a forward changing record. It merges the different commit id's one by one.
+Then compare to Rebase will do rewriting the entire commit id history in order to produce a straight, linear process of commits.
 
 [Pull / Pull Request]
 git pull = git fetch + git merge
