@@ -91,7 +91,7 @@ It is used to integrate all commit id and changes from one branch onto another b
 Rebase will do rewriting the entire commit id history in order to produce a straight, linear process of commits based on one branch into another current working branch.
 
 [Reset]
-It is used for undoing changes.
+It is used for undo local changes.
 It use when we want to move the repository back to a previous commit, discarding any changes made after that latest commit.
 ► Soft
 ► Mixed
