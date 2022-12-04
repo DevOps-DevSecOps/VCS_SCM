@@ -99,6 +99,7 @@ git log --grep="COMMIT_MESSAGE"
 git log --pretty=oneline | tail -n NO
 
 [Merge]
+git merge -h
 git merge BRANCH_NAME                                                           # current branch merged with target branch
 
 [Pull]
@@ -154,6 +155,7 @@ git restore --staged FILE_NAME                                                  
 git restore --staged FILE_NAME FILE_NAME
 
 [Rebase]
+git rebase -h
 git rebase BRANCH_NAME
 git rebase --abort
 git rebase --quit
