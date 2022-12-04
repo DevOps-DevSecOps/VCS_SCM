@@ -84,6 +84,10 @@ git init                                                                        
 git init .
 git init FOLDER_NAME                                                            # create an empty .git repository under a directory
 
+[List of File Names]
+git ls-files
+git ls-files -s                                                                 # displays additional metadata for the files in the Staging Index
+
 [Log]
 git log
 git log -NO                                                                     # NO = then pass the argument by using count NO (eg: git log -10) 
