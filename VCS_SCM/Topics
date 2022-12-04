@@ -62,7 +62,8 @@ COMMIT_MESSAGE = It is the overview of the commit given in the commit message.
 If run the git log command and stuck there, then press the q (Q for quit). It will quit you from the situation and back you to the command line.
 
 [Merge]
-It allows to merge the other branch with the currently active branch.
+It allows to merge the other source branch with the currently active branch.
+The git merge command also will merge the specified commit id from source branch to the currently active branch.
 Merge is always a forward changing record. It merges the different commit id's one by one.
 Then compare to Rebase will do rewriting the entire commit id history in order to produce a straight, linear process of commits.
 
