@@ -44,6 +44,7 @@ git checkout -b BRANCH_NAME                                                     
 git checkout -b NEW_BRANCH_NAME SOURCE_BRANCH_NAME                                              # create and switch to a new branch from particular existing branch
 git checkout -b BRANCH_NAME TAG_NAME                                                            # create a new branch with a tag
 git checkout COMMIT_ID                                                                          # it an detached Head, from the latest recent commit to an older commit
+git checkout -- FILE_NAME                                                                       # to discard/undo/remove changes in working directory
 
 [Clone]
 git clone REMOTE_REPOSITORY_URL(HTTPS/SSH)
