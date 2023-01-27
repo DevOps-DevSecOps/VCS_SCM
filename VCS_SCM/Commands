@@ -113,6 +113,7 @@ git merge BRANCH_NAME                                                           
 [Pull]
 git pull
 git pull --rebase
+git pull origin
 git pull REMOTE_NAME
 git pull origin BRANCH_NAME
 git pull origin BRANCH_NAME --rebase
@@ -125,7 +126,9 @@ git push -f
 git push -v
 git push --verbose
 git push --all
+git push origin
 git push origin BRANCH_NAME
+git push -u origin
 git push -u origin BRANCH_NAME
 git push -f origin BRANCH_NAME
 git push --force origin BRANCH_NAME
