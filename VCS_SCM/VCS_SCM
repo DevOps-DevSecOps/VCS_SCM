@@ -71,7 +71,7 @@ It is deleted after its feature has been merged with develop branch.
 So then updated code is merged back into the Develop / Development branch.
 ► Release
 This Release branch created from Develop / Development branch.
-It allow for minor bug fixes and preparing meta-data for a release (version number, build dates, etc.).
+It allow for minor bug fixes OR fix the defects and preparing meta-data for a release (version number, build dates, ... etc).
 So then updated code is merged back into the Develop / Development branch and Master branch.
 ► Hotfix
 This Hotfix branch created from Master branch.
