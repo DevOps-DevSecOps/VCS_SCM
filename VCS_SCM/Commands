@@ -127,14 +127,23 @@ git push -v
 git push --verbose
 git push --all
 git push origin
+git push REMOTE_NAME
 git push origin BRANCH_NAME
+git push REMOTE_NAME BRANCH_NAME
 git push -u origin
+git push -u REMOTE_NAME
 git push -u origin BRANCH_NAME
+git push -u REMOTE_NAME BRANCH_NAME
 git push -f origin BRANCH_NAME
+git push -f REMOTE_NAME BRANCH_NAME
 git push --force origin BRANCH_NAME
+git push --force REMOTE_NAME BRANCH_NAME
 git push -u origin --all
+git push -u REMOTE_NAME --all
 git push --set-upstream origin BRANCH_NAME
+git push --set-upstream REMOTE_NAME BRANCH_NAME
 git push origin --delete BRANCH_NAME                                            # delete a branch in remote repository
+git push REMOTE_NAME --delete BRANCH_NAME
 
 [Reflog]
 git reflog
