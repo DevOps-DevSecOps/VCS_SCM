@@ -197,7 +197,9 @@ git remote add REMOTE_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH)                     
 git remote show REMOTE_NAME
 git remote rename OLD_REMOTE_NAME NEW_REMOTE_NAME
 git remote rm origin
+git remote rm REMOTE_NAME
 git remote remove origin
+git remote remove REMOTE_NAME
 
 [Reset]
 git reset HEAD
