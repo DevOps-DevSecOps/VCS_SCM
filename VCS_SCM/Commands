@@ -55,6 +55,8 @@ git clone -b BRANCH_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH)                       
 git clone -b BRANCH_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH) "FOLDER_NAME"                         # cloning specific branch from repository into particular custom folder
 git clone --branch=BRANCH_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH)
 git clone --branch=BRANCH_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH) FOLDER_NAME                     # cloning specific branch from repository into particular custom folder
+git clone --single-branch -b BRANCH_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH)
+git clone --single-branch --branch=BRANCH_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH)
 
 [Commit]
 git commit                                                                      # it will open the default text editor and ask for the commit message
