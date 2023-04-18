@@ -243,6 +243,7 @@ git tag -l "TAG_NAME*"                                                          
 git push origin TAG_NAME                                                                           # push an particular tag
 git push --tags                                                                                    # push all the available tags at once from the local repository to the remote repository
 git push origin --tags
+git push -u origin --tags
 git tag -d TAG_NAME                                                                                # deleting a tag from the local repository
 git tag -d TAG_NAME TAG_NAME
 git tag --delete TAG_NAME
