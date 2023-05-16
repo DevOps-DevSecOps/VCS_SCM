@@ -50,6 +50,7 @@ git checkout -- FILE_NAME                                                       
 
 [Clone]
 git clone REMOTE_REPOSITORY_URL(HTTPS/SSH)
+git clone REMOTE_REPOSITORY_URL(HTTPS/SSH) FOLDER_NAME/.
 git clone REMOTE_REPOSITORY_URL(HTTPS/SSH) "FOLDER_NAME"                                        # cloning a repository into a specific local folder without switching to that particular folder/directory
 git clone -b BRANCH_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH)                                       # cloning specific branch from repository
 git clone -b BRANCH_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH) "FOLDER_NAME"                         # cloning specific branch from repository into particular custom folder
