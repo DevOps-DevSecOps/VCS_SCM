@@ -112,6 +112,7 @@ git log --pretty=oneline | tail -n NO
 git merge -h
 git merge COMMIT_ID                                                             # take particular commit id from source branch to merged with currently working branch
 git merge BRANCH_NAME                                                           # current branch merged with target branch
+git merge --abort
 
 [Pull]
 git pull
