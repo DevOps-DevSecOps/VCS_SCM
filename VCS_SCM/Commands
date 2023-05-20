@@ -61,10 +61,11 @@ git clone --single-branch --branch=BRANCH_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH)
 
 [Commit]
 git commit                                                                      # it will open the default text editor and ask for the commit message
-git commit -a                                                                   # it work for only update/modified to existing file and it commit and so it won't work for newly created files and it won't commit, it will prompt default text editor and ask for the commit message and then save and exit from the editor
+git commit -a                                                                   # prompt to default text editor and ask for the commit message and then save and exit from the editor
+git commit -m COMMIT_MESSAGE                                                    # lets to write the commit message on the command line
 git commit -m "COMMIT_MESSAGE"                                                  # lets to write the commit message on the command line
-git commit -am "COMMIT_MESSAGE"                                                 # it work for only update/modified to existing file and it commit and so it won't work for newly created files and it won't commit, lets to write the commit message on the command line
-git commit --amend "COMMIT_MESSAGE"                                             # it work for only update/modified to existing file and it commit and so it won't work for newly created files and it won't commit
+git commit -am "COMMIT_MESSAGE"                                                 # lets to write the commit message on the command line
+git commit --amend "COMMIT_MESSAGE"                                             #
 
 [Cherry-Pick]
 git cherry-pick COMMIT_ID
