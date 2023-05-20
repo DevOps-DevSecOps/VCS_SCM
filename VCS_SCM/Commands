@@ -61,7 +61,7 @@ git clone --single-branch --branch=BRANCH_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH)
 
 [Commit]
 git commit                                                                      # it will open the default text editor and ask for the commit message
-git commit -a                                                                   # prompt to default text editor and ask for the commit message and then save and exit from the editor
+git commit -a                                                                   # it will prompt to default text editor and ask for the commit message and then save and exit from the editor
 git commit -m COMMIT_MESSAGE                                                    # lets to write the commit message on the command line
 git commit -m "COMMIT_MESSAGE"                                                  # lets to write the commit message on the command line
 git commit -am "COMMIT_MESSAGE"                                                 # lets to write the commit message on the command line
