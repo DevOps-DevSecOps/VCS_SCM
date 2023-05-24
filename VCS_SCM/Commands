@@ -148,6 +148,7 @@ git push -u origin --all
 git push -u REMOTE_NAME --all
 git push --set-upstream origin BRANCH_NAME
 git push --set-upstream REMOTE_NAME BRANCH_NAME
+git push --mirror REMOTE_NAME
 git push --mirror REMOTE_REPOSITORY_URL(HTTPS/SSH)
 git push origin --delete BRANCH_NAME                                            # delete a branch in remote repository
 git push REMOTE_NAME --delete BRANCH_NAME
