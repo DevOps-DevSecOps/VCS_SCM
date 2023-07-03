@@ -118,6 +118,7 @@ git merge --abort
 
 [Pull]
 git pull
+git pull --all
 git pull --rebase
 git pull origin
 git pull REMOTE_NAME
