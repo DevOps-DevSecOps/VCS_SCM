@@ -73,7 +73,13 @@ git cherry-pick COMMIT_ID
 [Diff]
 git diff
 git diff HEAD
+git diff FILE_NAME                                                              # to track the changes with a specific file
+git diff --word-diff
+git diff --color-words
+git diff --color-words FILE_NAME
 git diff --staged                                                               # to track the changes in the staging area
+git diff --staged --color-words
+git diff --staged --color-words FILE_NAME
 git diff COMMIT_ID COMMIT_ID                                                    # to compare different between the commits
 git diff BRANCH_NAME BRANCH_NAME                                                # to compare different between the branches
 
