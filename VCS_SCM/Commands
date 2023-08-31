@@ -81,7 +81,11 @@ git diff --staged                                                               
 git diff --staged --color-words
 git diff --staged --color-words FILE_NAME
 git diff COMMIT_ID COMMIT_ID                                                    # to compare different between the commits
+git diff COMMIT_ID COMMIT_ID FILE_NAME                                          # to track the changes between the commits with a specific file
+git diff COMMIT_ID COMMIT_ID --color-words FILE_NAME
 git diff BRANCH_NAME BRANCH_NAME                                                # to compare different between the branches
+git diff BRANCH_NAME BRANCH_NAME --color-words
+git diff BRANCH_NAME BRANCH_NAME --color-words FILE_NAME
 
 [Fetch]
 git fetch
@@ -106,6 +110,7 @@ git ls-files -s                                                                 
 git log
 git log -NO                                                                     # NO = then pass the argument by using count NO (eg: git log -10) 
 git log --oneline                                                               # it display the first seven characters of the commit SHA and the commit message
+git log --oneline FILE_NAME
 git log --graph                                                                 # it allows viewing git log as a graph
 git log --graph --oneline
 git log --stat                                                                  # it displays the modified files and it shows the no of lines
