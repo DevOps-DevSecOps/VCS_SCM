@@ -92,6 +92,8 @@ Rebase will do rewriting the entire commit id history in order to produce a stra
 
 [Reset]
 It is used for undo local changes.
+It won't work for public commits in public SCM (GitHub, Bitbucket, GitLab).
+Its only work for local commits with VCS Git.
 It use when we want to move the repository back to a previous commit, discarding any changes made after that latest commit.
 ► Soft
 ► Mixed
