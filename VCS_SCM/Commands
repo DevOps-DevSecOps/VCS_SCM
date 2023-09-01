@@ -63,6 +63,7 @@ git clone --single-branch --branch=BRANCH_NAME REMOTE_REPOSITORY_URL(HTTPS/SSH)
 git commit                                                                      # it will open the default text editor and ask for the commit message
 git commit -a                                                                   # it will prompt to default text editor and ask for the commit message and then save and exit from the editor
 git commit -m COMMIT_MESSAGE                                                    # lets to write the commit message on the command line
+git commit -m 'COMMIT_MESSAGE'
 git commit -m "COMMIT_MESSAGE"                                                  # lets to write the commit message on the command line
 git commit -am "COMMIT_MESSAGE"                                                 # lets to write the commit message on the command line
 git commit --amend "COMMIT_MESSAGE"                                             #
@@ -181,10 +182,13 @@ git reset HEAD~NO
 git reset COMMIT_ID
 git reset --soft HEAD
 git reset --soft HEAD~NO
+git reset --soft COMMIT_ID
 git reset --mixed HEAD~NO
+git reset --mixed COMMIT_ID
 git reset --hard HEAD
 git reset --hard HEAD~NO
 git reset --hard HEAD@{NO}
+git reset --hard COMMIT_ID
 
 [Restore]
 git restore .                                                                   # to discard/undo/remove all changes in working directory
