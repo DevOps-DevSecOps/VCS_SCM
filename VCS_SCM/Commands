@@ -153,6 +153,8 @@ git push -u origin
 git push -u REMOTE_NAME
 git push -u origin BRANCH_NAME
 git push -u REMOTE_NAME BRANCH_NAME
+git push -f origin
+git push -f REMOTE_NAME
 git push -f origin BRANCH_NAME
 git push -f REMOTE_NAME BRANCH_NAME
 git push --force origin BRANCH_NAME
