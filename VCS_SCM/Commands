@@ -20,13 +20,16 @@ git blame -C FILE_NAME                                  # detects lines that wer
 git blame -L NO,NO FILE_NAME                            # restrict the output to the requested line range, restricted the output to lines NO through NO
 
 [Branch]
-git branch                                              # list all of the available branches in repository
+git branch                                              # list all of the available branches in repository after cloned and newly created branches in local repository only will be listed
+git branch -l
 git branch --list
-git branch -a
+git branch -a                                           # list all of the available branches in repository and after also newly created branches in remote repository 
+git branch --all
 git branch -vv
 git branch BRANCH_NAME                                  # create a new branch
 git branch -m OLD_BRANCH_NAME NEW_BRANCH_NAME           # rename the branch
 git branch -d BRANCH_NAME                               # delete a branch in local repository
+git branch --delete BRANCH_NAME
 git branch -D BRANCH_NAME
 
 [Config]
